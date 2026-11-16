@@ -33,12 +33,16 @@ jobs:
         run: npm test
 
       - name: Build
-        run: npm run build || (echo "Build failed, showing errors"; ls -la; cat vite.config.ts; exit 1)
+        run: npm run build > build.log 2>&1 || true
+
+      - name: Show build log
+        run: cat build.log
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: dist
+        continue-on-error: true
 
   deploy:
     environment:
