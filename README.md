@@ -4,6 +4,8 @@ An interactive quantitative finance laboratory that demonstrates how financial d
 
 > Identical future cash flows must have identical current prices in an arbitrage-free market.
 
+**Author:** [Prakhar Gupta](https://prakharquant.github.io/) · [Email](mailto:bestofprakhar@gmail.com) · [X / Twitter](https://x.com/PrakharQuant) · [LinkedIn](https://www.linkedin.com/in/prakhar-gupta)
+
 ## Motivation
 
 Most educational materials either explain derivatives in words or jump straight to the Black–Scholes formula. ReplicateX lets you **construct** the replicating portfolio yourself, see the price emerge from no-arbitrage, detect arbitrage when prices disagree, watch a multi-period tree converge, and experience the residual error of discrete delta hedging.
