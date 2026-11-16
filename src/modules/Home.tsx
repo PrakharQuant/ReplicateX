@@ -40,6 +40,12 @@ export default function Home({ onNavigate }: Props) {
         <p className="text-lg text-gray-400 max-w-3xl mx-auto">
           Understand how derivatives are priced, replicated and hedged through mathematical finance.
         </p>
+        <p className="text-sm text-gray-500 mt-4">
+          Built by{' '}
+          <a href="https://prakharquant.github.io/" target="_blank" rel="noopener noreferrer" className="text-teal-400 hover:underline">
+            Prakhar Gupta
+          </a>
+        </p>
       </section>
 
       <section className="card">
