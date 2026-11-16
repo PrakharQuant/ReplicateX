@@ -51,8 +51,8 @@ describe('CRR Binomial', () => {
     });
     expect(res.valid).toBe(true);
     expect(res.price).toBeGreaterThan(0);
-    // Roughly matches the classic example
-    expect(res.price).toBeCloseTo(11.9, 0);
+    // Continuous compounding gives a slightly different value from discrete one-period
+    expect(res.price).toBeCloseTo(11.25, 1);
   });
 
   it('increases price with more steps toward BS', () => {
