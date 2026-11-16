@@ -51,7 +51,7 @@ export default function Foundations() {
       <section className="card space-y-3">
         <h2 className="text-xl font-semibold text-cyan-400">4. Risk-Neutral Valuation</h2>
         <p className="text-sm text-gray-300">
-          <strong>Formal:</strong> The price is the discounted expected payoff under the unique probability measure Q that makes the discounted asset price a martingale: C₀ = e^{-rT} E^Q[payoff].
+          <strong>Formal:</strong> The price is the discounted expected payoff under the unique probability measure Q that makes the discounted asset price a martingale: C₀ = e^(-rT) E^Q[payoff].
         </p>
         <p className="text-sm text-gray-300">
           <strong>Intuitive:</strong> Because the hedge eliminates risk, we can pretend all investors are risk-neutral and simply discount the expected payoff at the risk-free rate. The physical probabilities never appear.
