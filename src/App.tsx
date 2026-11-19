@@ -100,7 +100,7 @@ export default function App() {
               </svg>
             </a>
             <a
-              href="https://www.linkedin.com/in/prakhar-gupta"
+              href="https://www.linkedin.com/in/prakhar-gupta-5b7250372"
               target="_blank"
               rel="noopener noreferrer"
               title="LinkedIn"
