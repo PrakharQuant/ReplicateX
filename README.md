@@ -4,7 +4,7 @@ An interactive quantitative finance laboratory that demonstrates how financial d
 
 > Identical future cash flows must have identical current prices in an arbitrage-free market.
 
-**Author:** [Prakhar Gupta](https://prakharquant.github.io/) · [Email](mailto:bestofprakhar@gmail.com) · [X / Twitter](https://x.com/PrakharQuant) · [LinkedIn](https://www.linkedin.com/in/prakhar-gupta)
+**Author:** [Prakhar Gupta](https://prakharquant.github.io/) · [Email](mailto:bestofprakhar@gmail.com) · [X / Twitter](https://x.com/PrakharQuant) · [LinkedIn](https://www.linkedin.com/in/prakhar-gupta-5b7250372)
 
 ## Motivation
 
